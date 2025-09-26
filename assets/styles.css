@@ -71,19 +71,22 @@ img {
 
 #bg_red {
   background-color: #e22d0e;
-  color: white;
 }
 
 #bg_red h1,
-#bg_red p {
+#bg_red p,
+#bg_red q {
   color: white;
 }
 
-#bg_red q {
+q {
   font-size: 1.1rem;
   font-family: "Open Sans", sans-serif;
   line-height: 1.65em;
   font-style: italic;
+  display: block;
+  margin-bottom: 1.5em;
+  /* non riuscivo ad aggiungere margin-bottom perché q di default è un elemento inline! :))) */
 }
 
 #recursive div {
