@@ -14,8 +14,6 @@ header img {
   border-radius: 0%;
 }
 
-
-
 section {
   padding: 2em;
 }
@@ -123,18 +121,19 @@ q {
   width: 100%;
   border-radius: 0%;
   margin: 0;
-  max-height: 100px;
+  /* se hanno la stessa altezza ma le card non sono allineate vuol dire che non è colpa della img!!! */
 }
 
 #recursive h2 {
-  margin-top: 1em;
-  padding-left: 6em;
-  padding-right: 6em;
+  margin: 0;
+  padding: 0;
 }
 
-#recursive p{
-    padding-bottom: 3em;
+#recursive p {
+  margin: 0;
+  padding: 0;
 }
+/* ho azzerato margin e paddings al testo per vedere meglio le differenze tra le card*/
 
 footer {
   background-color: #25a2c3;
