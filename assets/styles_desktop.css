@@ -5,10 +5,11 @@ body {
 header {
   background-color: black;
   text-align: left;
+  height: fit-content;
 }
 header img {
-  width: 30%;
-  margin: 2em;
+  width: 10%;
+  margin: 1em;
   border-radius: 0%;
 }
 
@@ -18,11 +19,12 @@ section {
 
 #bg_image {
   background-image: url(./images/banner.jpg);
-  background-size: contain;
+  background-size: cover;
+  padding: 7em 10em;
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   color: #25a2c3;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -31,7 +33,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #25a2c3;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 0.5em;
@@ -63,14 +65,25 @@ button {
   border: none;
 }
 
-img {
+.columns{
+    padding: 1.5em 4em;
+}
+
+.columns div{
+    display: inline-block;
+    width: 40%;
+    margin-right: 5%;
+}
+
+.columns img {
   width: 100%;
   border-radius: 50%;
-  margin: 2em auto;
 }
+
 
 #bg_red {
   background-color: #e22d0e;
+  padding: 2em 10em;
 }
 
 #bg_red h1,
@@ -90,11 +103,13 @@ q {
 }
 
 #recursive div {
-  width: 95%;
+    display: inline-block;
+  width: 30%;
   border: 1px #dee1e3 solid;
   margin-bottom: 2em;
 }
 #recursive img {
+    width: 100%;
   border-radius: 0%;
   margin: 0;
 }
@@ -105,11 +120,13 @@ q {
 
 footer {
   background-color: #25a2c3;
-  padding: 3em;
+  padding: 3em 22em;
+  text-align: left;
 }
 
 footer h1 {
   color: white;
+  text-align: center;
 }
 
 footer a,
@@ -119,6 +136,7 @@ footer p {
   display: inline-block;
   font-size: 1.2rem;
   line-height: 1.65em;
+
 }
 
 i {
@@ -126,6 +144,7 @@ i {
   display: inline-block;
   font-size: 1.2em;
   margin: auto 0.2em;
+  
 }
 
 hr {
